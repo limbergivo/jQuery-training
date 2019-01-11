@@ -61,9 +61,9 @@ function resetForm(){
        ;
     })
 
- /*  $("#reset").click(function(event){
-        $("form").trigger("reset"); 
+   $("#reset").click(function(event){
+        $("#display-name,#pass,#pass-confirm,#email").css("border","")
         event.preventDefault(event)
     })
-    */
+    
 });
